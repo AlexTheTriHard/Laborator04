@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="contactsmanager.lab04.pdsd.systems.cs.pub.ro.contactsmanager.BasicDetailsFragment">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/show_hide_details_button"
+            android:layout_gravity="right"
+            android:text="Show details"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_field"
+            android:hint="Name"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/telephone_number_field"
+            android:hint="Telephone"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email_field"
+            android:hint="Email"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/address_field"
+            android:hint="Address"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:id="@+id/save_button"
+                android:layout_gravity="center_horizontal"
+                android:text="Save"
+                android:layout_weight="1.0"/>
+            <Button
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:id="@+id/cancel_button"
+                android:layout_gravity="right"
+                android:text="Cancel"
+                android:layout_weight="1.0"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
